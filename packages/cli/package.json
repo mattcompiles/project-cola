@@ -1,0 +1,32 @@
+{
+  "name": "@cola/cli",
+  "version": "1.0.0",
+  "main": "dist/cola-cli.cjs.js",
+  "module": "dist/cola-cli.esm.js",
+  "author": "mattcompiles",
+  "license": "MIT",
+  "files": [
+    "/dist",
+    "bin.js"
+  ],
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  },
+  "bin": {
+    "cola": "bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattcompiles/project-cola.git",
+    "directory": "packages/cli"
+  },
+  "dependencies": {
+    "@cola/core": "^1.0.0",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17"
+  }
+}

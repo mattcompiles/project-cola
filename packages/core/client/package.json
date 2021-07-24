@@ -1,0 +1,4 @@
+{
+  "main": "dist/cola-core-client.cjs.js",
+  "module": "dist/cola-core-client.esm.js"
+}

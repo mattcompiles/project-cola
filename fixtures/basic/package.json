@@ -1,0 +1,12 @@
+{
+  "name": "@fixture/basic",
+  "version": "1.0.0",
+  "author": "mattcompiles",
+  "scripts": {
+    "start": "cola start"
+  },
+  "dependencies": {
+    "@cola/cli": "^1.0.0",
+    "@cola/core": "^1.0.0"
+  }
+}
